@@ -1,6 +1,4 @@
 123456789
-<<<<<<< HEAD
 test test test
 more tests
-=======
->>>>>>> parent of 63675f6... added text to test.txt
+
