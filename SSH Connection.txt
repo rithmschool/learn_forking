@@ -1,0 +1,17 @@
+#Connect with github throuth key pair
+install ssh for windows, it's easier with .exe rather than install on command line
+#tip after installed program, GitHub Help is really useful for next steps.
+#create a key pair, use git terminal
+ssh-keygen -t rsa -b 4096 -C "PUT YOUR EMAIL HERE"
+Enter a file in which to save the key (/Users/you/.ssh/id_rsa): [Press enter]
+You will then be prompted to enter a passphrase [Press enter]
+again [Press enter]
+#start ssh-agent manually
+eval "$(ssh-agent -s)"
+#add key
+ssh-add ~/.ssh/id_rs
+#paste key in clipboard
+clip < ~/.ssh/id_rsa.pub
+# then go githug, on photo click settings, SSH AND GPH Key/ paste key and add.
+#to test connection
+ssh -T git@github.com
