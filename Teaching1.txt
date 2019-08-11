@@ -1,0 +1,1 @@
+This file is set up for teaching git to my web development batch#1 students.
