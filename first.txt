@@ -1,1 +1,1 @@
-the process of forking on git is quite easy
+forking on git is fun
