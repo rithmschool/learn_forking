@@ -1,1 +1,9 @@
-body{};
+body{
+    background-color: blue;
+    margin: auto;
+    padding: 30px;
+    color: brown;
+    width: 500px;
+    border: 20px;
+    display: block;
+};
