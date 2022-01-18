@@ -1,0 +1,1 @@
+Now that you have the repository locally, add a new file or make some changes, add and commit them and run git push origin master and you should see your updated changes in your forked copy.
