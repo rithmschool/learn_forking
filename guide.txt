@@ -1,0 +1,14 @@
+1. To fork a repo, click on the Fork button on github that'll redirect you to another in-page.
+    a. then press the "create fork button", automatically the repo would be created.
+2. If you want to add the forked repo to your local editor, just click on the code button and a drop-down would pop out,use the right link,
+    and go enter the copied link in your command line, `git clone "THE COPIED LINK"`.
+
+3.To compare/add changes to the account you copied the repo from, you have to make a PULL REQUEST on your personal account, 
+    a. after commitiing your changes to github via terminal, got ot github and press the PULL REQUEST button,
+    initiate a NEW PULL REQUEST , and click CREATE PULL REQUEST(button is only active it notices changes).
+4. To get the updated details of the repo, if someome REQUEST got merged, You have to  Retrieve the code via UPSTREAM.
+    a. check all files are committed already.
+    b. you'll now perform the UPSTREAM,by entering the command on your terminal,
+    "git remote add upstream 'THE LINK TO THE FILE' ".
+    c. Once the upstream is set, enter "git pull upstrem master.
+    d. then run "git push origin master" to update the forked repo.
