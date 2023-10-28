@@ -1,2 +1,6 @@
 # learn_how_to_fork
-A repository to learn how to fork
+A repo
+this is a new changes in this code.
+new massages
+a new text
+after changes
