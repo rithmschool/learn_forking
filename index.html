@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Dom Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div id="page-banner">
+                <h1 class="title">Bookorama</h1>
+                <p>Books for netnijas</p>
+                <a href="http://www.thenetninja.co.uk">The net ninja</a>
+                <form id="search-books" action="">
+                    <input type="text" placeholder="serach books" name="" id="">
+                </form>
+            </div>
+        </header>
+        <div id="book-list">
+            <h2 class="title"> Books to Read</h2>
+            <ul>
+                <li>
+                    <span class="name"> Name of the wind</span>
+                    <span class="delete">Delete</span>
+                </li>
+                <li>
+                    <span class="name second-li"> The Wise Man's Fear</span>
+                    <span class="delete">Delete</span>
+                </li>
+                <li>
+                    <span class="name"> Kafka on the Shore</span>
+                    <span class="delete">Delete</span>
+                </li>
+                <li>
+                    <span class="name"> The Master and the Margarita</span>
+                    <span class="delete">Delete</span>
+                </li>
+                <li>
+                    <span class="name"> The Master and the Margarita</span>
+                    <span class="delete">Delete</span>
+                </li>
+                <li>
+                    <span class="name"> The Master and the Margarita</span>
+                    <span class="delete">Delete</span>
+                </li>
+            </ul>
+        </div>
+        <form id="add-book">
+            <input type="checkbox"  id="hide" />
+            <label for="hide">Hide all Books</label>
+            <input type="text" placeholder="Add a books..." />
+            <button>Add</button>
+        </form>
+        <div id="tabbed-content">
+            <ul class="tabs">
+                <li data-target="#about" class="active">About</li>
+                <li data-target="#contact">Contact</li>
+            </ul>
+            <div class="panel active" id="about">
+                <p>Content for about tab.....</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis natus quos magnam adipisci  blanditiis corrupti unde vel ut.</p>
+            </div>
+            <div class="panel" id="contact">
+                <p>Content for contact tab.....</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis natus quos magnam adipisci  blanditiis corrupti unde vel ut.</p>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
