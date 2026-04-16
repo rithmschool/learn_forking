@@ -1,2 +1,2 @@
-# learn_how_to_fork
+# Github Fork
 A repository to learn how to fork
